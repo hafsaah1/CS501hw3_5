@@ -1,6 +1,6 @@
 # CS501 - Homework 3 - Question 5: 
 
-This is a simple Android app that shows a basic login form. It was built using Jetpack Compose and demonstrates fundamental concepts like state management, input fields, and Material 3 theming as covered in the lecture.
+This shows fundamental concepts like state management, input fields, and Material 3 theming as covered in the lecture.
 
 ## How to Use the App
 
@@ -16,13 +16,13 @@ This is a simple Android app that shows a basic login form. It was built using J
 
 This app is built around a few core Jetpack Compose concepts from the lecture:
 
-* **Layout**: The form is organized using a `Column`, which stacks the title, text fields, and button vertically on the screen (as seen on slide 8).
+* **Layout**: The form is organized using a `Column`, which stacks the title, text fields, and button vertically on the screen (as seen on  lec3 slide 8).
 
-* **Input Fields (`TextField`)**: The app uses `OutlinedTextField` for both username and password entry. These are standard Material 3 components for user input (mentioned on slide 43).
+* **Input Fields (`TextField`)**: The app uses `OutlinedTextField` for both username and password entry. These are standard Material 3 components for user input (mentioned on lec3 slide 43).
 
 * **State Management**: The app uses `remember { mutableStateOf("") }` to keep track of the text the user types into each field. It also uses separate `remember` blocks for boolean flags (`isUsernameError`, `isPasswordError`) to control when to show validation errors.
 
-* **Material 3 Theming**: The form is styled using `MaterialTheme` (slides 35-41).
+* **Material 3 Theming**: The form is styled using `MaterialTheme` (lec3 slides 35-41).
     * The title's font comes from `MaterialTheme.typography`.
     * The colors of the text fields, button, and the red error indicators are all pulled directly from the app's `ColorScheme`. This is why we don't have to manually set any colors.
 
