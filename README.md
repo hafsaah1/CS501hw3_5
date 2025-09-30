@@ -1,4 +1,4 @@
-# CS501 - Homework 3 - Question 5: Themed Form with Validation
+# CS501 - Homework 3 - Question 5: 
 
 This is a simple Android app that shows a basic login form. It was built using Jetpack Compose and demonstrates fundamental concepts like state management, input fields, and Material 3 theming as covered in the lecture.
 
