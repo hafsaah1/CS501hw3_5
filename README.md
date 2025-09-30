@@ -1,6 +1,6 @@
 # CS501 - Homework 3 - Question 5: Themed Form with TextFields and Submit Button
 
-This shows fundamental concepts like state management, input fields, and Material 3 theming as covered in the lecture.
+This shows fundamental concepts like state management, input fields, and Material 3 theming as covered in lecture 3.
 
 ## How to Use the App
 
